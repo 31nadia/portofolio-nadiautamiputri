@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadia Utami Putri | Portofolio Profesional HD</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1E3A8A', // Deep Navy Blue
+                        secondary: '#D97706', // Warm Amber / Gold
+                        accent: '#F3F4F6',
+                        darkText: '#1F2937'
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .hd-img-container {
+            image-rendering: -webkit-optimize-contrast;
+            image-rendering: crisp-edges;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-darkText antialiased selection:bg-secondary selection:text-white">
+
+    <!-- Header Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#hero" class="text-xl font-extrabold text-primary flex items-center gap-2">
+                <span class="w-9 h-9 rounded-lg bg-primary text-secondary flex items-center justify-center font-black shadow-md">N</span>
+                <span>Nadia Utami Putri</span>
+            </a>
+            
+            <nav class="hidden md:flex items-center gap-8 font-medium text-sm">
+                <a href="#about" class="hover:text-secondary transition-colors">Tentang Saya</a>
+                <a href="#experience" class="hover:text-secondary transition-colors">Pengalaman</a>
+                <a href="#projects" class="hover:text-secondary transition-colors">Portofolio & Karya</a>
+                <a href="#skills" class="hover:text-secondary transition-colors">Keahlian</a>
+                <a href="#certifications" class="hover:text-secondary transition-colors">Sertifikasi</a>
+                <a href="#contact" class="hover:text-secondary transition-colors">Kontak</a>
+            </nav>
+
+            <div class="hidden md:flex items-center gap-4">
+                <a href="#contact" class="px-5 py-2.5 rounded-full bg-primary text-white font-semibold text-sm hover:bg-blue-900 shadow-md hover:shadow-lg transition-all">
+                    Hubungi Saya
+                </a>
+            </div>
+
+            <button id="menu-btn" aria-label="Toggle Menu" class="md:hidden text-slate-700 hover:text-primary focus:outline-none text-2xl">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-6 py-6 shadow-xl space-y-4">
+            <a href="#about" class="block font-medium text-slate-700 hover:text-secondary py-1 mobile-link">Tentang Saya</a>
+            <a href="#experience" class="block font-medium text-slate-700 hover:text-secondary py-1 mobile-link">Pengalaman</a>
+            <a href="#projects" class="block font-medium text-slate-700 hover:text-secondary py-1 mobile-link">Portofolio & Karya</a>
+            <a href="#skills" class="block font-medium text-slate-700 hover:text-secondary py-1 mobile-link">Keahlian</a>
+            <a href="#certifications" class="block font-medium text-slate-700 hover:text-secondary py-1 mobile-link">Sertifikasi</a>
+            <a href="#contact" class="block font-medium text-slate-700 hover:text-secondary py-1 mobile-link">Kontak</a>
+        </div>
+    </header>
+
+    <main class="overflow-hidden">
+        <!-- Hero Section -->
+        <section id="hero" class="relative pt-32 pb-20 md:pt-44 md:pb-32 bg-gradient-to-br from-blue-50 via-white to-amber-50/40">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100/80 text-primary font-semibold text-xs md:text-sm tracking-wide shadow-sm">
+                            <i class="fa-solid fa-sparkles text-secondary"></i> S1 Sistem Informasi | IT Support & Data Specialist
+                        </div>
+                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-tight">
+                            Halo, Saya <span class="text-primary">Nadia Utami Putri</span>
+                        </h1>
+                        <p class="text-lg md:text-xl font-medium text-slate-600 max-w-2xl mx-auto lg:mx-0">
+                            "Profesional Berpengalaman di Bidang Administrasi Data, Dukungan Teknis Jaringan, & Kreativitas Digital untuk Efisiensi Operasional Perusahaan."
+                        </p>
+                        <p class="text-sm md:text-base text-slate-500 max-w-xl mx-auto lg:mx-0 leading-relaxed">
+                            Lulusan S1 Sistem Informasi Universitas Metamedia dengan keahlian komprehensif dalam network engineering, database management, administrasi publik, serta desain grafis & penerbitan.
+                        </p>
+                        <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-4">
+                            <a href="#projects" class="px-7 py-3.5 rounded-full bg-primary text-white font-semibold text-sm hover:bg-blue-900 shadow-lg hover:shadow-xl transition-all flex items-center gap-2">
+                                <i class="fa-solid fa-briefcase"></i> Lihat Portofolio
+                            </a>
+                            <a href="#contact" class="px-7 py-3.5 rounded-full bg-white border-2 border-slate-300 text-slate-700 font-semibold text-sm hover:border-primary hover:text-primary transition-all flex items-center gap-2 shadow-sm">
+                                <i class="fa-solid fa-envelope"></i> Hubungi Saya
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-5 flex justify-center">
+                        <div class="relative">
+                            <div class="absolute -inset-2 bg-gradient-to-r from-primary to-secondary rounded-3xl blur-lg opacity-30 animate-pulse"></div>
+                            <div class="relative w-72 h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-100 flex items-center justify-center">
+                                <img src="https://i.ibb.co.com/6JbbhBm4/Nadia-Utami-Putri.jpg" 
+                                     alt="Nadia Utami Putri" 
+                                     class="w-full h-full object-cover object-top hd-img-container" 
+                                     loading="eager">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects & Design Section -->
+        <section id="projects" class="py-20 bg-white border-t border-slate-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-secondary font-bold uppercase tracking-wider text-xs bg-amber-50 px-3 py-1 rounded-full border border-amber-200">Portofolio & Karya</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">Proyek & Desain Sampul Buku (Tajam & Jelas)</h2>
+                    <p class="text-slate-600 mt-2 text-base">Klik pada setiap karya untuk membuka tampilan sampel resolusi tinggi dalam pratinjau penuh.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project 1: Web SF Bakery -->
+                    <div class="bg-slate-50 rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all flex flex-col justify-between group">
+                        <div class="p-6">
+                            <div class="w-12 h-12 rounded-2xl bg-primary text-secondary flex items-center justify-center text-xl font-bold mb-4 shadow-md group-hover:scale-110 transition-transform">
+                                <i class="fa-solid fa-store"></i>
+                            </div>
+                            <span class="text-xs bg-blue-100 text-primary px-2.5 py-1 rounded-full font-semibold">Web Development</span>
+                            <h3 class="text-xl font-bold text-slate-900 mt-3 group-hover:text-primary transition-colors">Website Toko Roti SF Bakery</h3>
+                            <p class="text-slate-600 text-sm mt-3 leading-relaxed">
+                                Sistem Informasi SF Bakery berbasis web dirancang untuk mengelola transaksi, pemesanan online, dan inventaris secara efisien.
+                            </p>
+                        </div>
+                        <div class="p-6 pt-0 mt-auto">
+                            <a href="https://github.com/31nadia/TOKO-ROTI-SF-BAKERY" target="_blank" rel="noopener noreferrer" class="w-full py-3 rounded-xl bg-primary text-white text-sm font-semibold flex items-center justify-center gap-2 hover:bg-blue-900 transition-colors shadow-sm">
+                                <i class="fa-brands fa-github"></i> Lihat Repository GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Cover Pangan dan Gizi -->
+                    <div class="bg-slate-50 rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all flex flex-col justify-between group">
+                        <div class="p-6">
+                            <div class="h-48 rounded-2xl overflow-hidden bg-slate-200 mb-4 border border-slate-200">
+                                <img src="https://i.ibb.co.com/LDQ816fk/Cover-Buku-Pangan-dan-Gizi.jpg" alt="Cover Buku Pangan dan Gizi" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300 hd-img-container">
+                            </div>
+                            <span class="text-xs bg-amber-100 text-amber-800 px-2.5 py-1 rounded-full font-semibold">Graphic Design</span>
+                            <h3 class="text-xl font-bold text-slate-900 mt-3 group-hover:text-primary transition-colors">Cover Buku: Pangan dan Gizi</h3>
+                            <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+                                Desain sampul buku akademik profesional dengan visual tata letak dan tipografi berstandar penerbitan.
+                            </p>
+                        </div>
+                        <div class="p-6 pt-0 mt-auto">
+                            <button onclick="openModal('Cover Buku: Pangan dan Gizi', 'Desain sampul buku lengkap untuk penerbitan akademik mencakup bagian depan, belakang, spine, barcode ISBN resmi, dan tata letak tipografi yang komunikatif.', 'https://i.ibb.co.com/LDQ816fk/Cover-Buku-Pangan-dan-Gizi.jpg', 'https://ibb.co.com/LDQ816fk')" class="w-full py-3 rounded-xl bg-slate-800 text-white text-sm font-semibold flex items-center justify-center gap-2 hover:bg-slate-900 transition-colors shadow-sm">
+                                <i class="fa-solid fa-expand"></i> Pratinjau HD Penuh
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Cover Ilmu Olahraga -->
+                    <div class="bg-slate-50 rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all flex flex-col justify-between group">
+                        <div class="p-6">
+                            <div class="h-48 rounded-2xl overflow-hidden bg-slate-200 mb-4 border border-slate-200">
+                                <img src="https://i.ibb.co.com/fV4pb1ZH/Cover-Buku-Ilmu-Olahraga.jpg" alt="Cover Buku Ilmu Olahraga" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300 hd-img-container">
+                            </div>
+                            <span class="text-xs bg-amber-100 text-amber-800 px-2.5 py-1 rounded-full font-semibold">Graphic Design</span>
+                            <h3 class="text-xl font-bold text-slate-900 mt-3 group-hover:text-primary transition-colors">Cover Buku: Ilmu Olahraga</h3>
+                            <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+                                Pengolahan desain halaman depan dan belakang untuk buku "Ilmu Olahraga: Teori dan Praktik".
+                            </p>
+                        </div>
+                        <div class="p-6 pt-0 mt-auto">
+                            <button onclick="openModal('Cover Buku: Ilmu Olahraga', 'Desain sampul buku komprehensif untuk bidang pendidikan olahraga, dirancang menarik dan profesional.', 'https://i.ibb.co.com/fV4pb1ZH/Cover-Buku-Ilmu-Olahraga.jpg', 'https://ibb.co.com/fV4pb1ZH')" class="w-full py-3 rounded-xl bg-slate-800 text-white text-sm font-semibold flex items-center justify-center gap-2 hover:bg-slate-900 transition-colors shadow-sm">
+                                <i class="fa-solid fa-expand"></i> Pratinjau HD Penuh
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Cover Algoritma & Pemrograman -->
+                    <div class="bg-slate-50 rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all flex flex-col justify-between group">
+                        <div class="p-6">
+                            <div class="h-48 rounded-2xl overflow-hidden bg-slate-200 mb-4 border border-slate-200">
+                                <img src="https://i.ibb.co.com/bgmFRhT4/Cover-Buku-Algoritma-Pemrograman.jpg" alt="Cover Buku Algoritma & Pemrograman" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300 hd-img-container">
+                            </div>
+                            <span class="text-xs bg-amber-100 text-amber-800 px-2.5 py-1 rounded-full font-semibold">Graphic Design</span>
+                            <h3 class="text-xl font-bold text-slate-900 mt-3 group-hover:text-primary transition-colors">Cover Buku: Algoritma & Pemrograman</h3>
+                            <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+                                Sampul buku komputer dengan tema teknologi digital dan pemutakhiran standar layout ISBN.
+                            </p>
+                        </div>
+                        <div class="p-6 pt-0 mt-auto">
+                            <button onclick="openModal('Cover Buku: Algoritma & Pemrograman', 'Desain sampul buku referensi ilmu komputer dan pemrograman yang elegan dan terstruktur.', 'https://i.ibb.co.com/bgmFRhT4/Cover-Buku-Algoritma-Pemrograman.jpg', 'https://ibb.co.com/bgmFRhT4')" class="w-full py-3 rounded-xl bg-slate-800 text-white text-sm font-semibold flex items-center justify-center gap-2 hover:bg-slate-900 transition-colors shadow-sm">
+                                <i class="fa-solid fa-expand"></i> Pratinjau HD Penuh
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: Banner Promosi Digital -->
+                    <div class="bg-slate-50 rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all flex flex-col justify-between group">
+                        <div class="p-6">
+                            <div class="h-48 rounded-2xl overflow-hidden bg-slate-200 mb-4 border border-slate-200">
+                                <img src="https://i.ibb.co.com/27rhdmpc/Banner-Promosi-1.jpg" alt="Banner Promosi Digital" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300 hd-img-container">
+                            </div>
+                            <span class="text-xs bg-blue-100 text-primary px-2.5 py-1 rounded-full font-semibold">Marketing & Social Media</span>
+                            <h3 class="text-xl font-bold text-slate-900 mt-3 group-hover:text-primary transition-colors">Promosi Buku & Banner Digital</h3>
+                            <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+                                Banner promosi e-commerce & media sosial untuk publikasi penerbitan buku baru.
+                            </p>
+                        </div>
+                        <div class="p-6 pt-0 mt-auto grid grid-cols-2 gap-2">
+                            <button onclick="openModal('Promosi Buku & Banner Digital 1', 'Materi promosi visual interaktif untuk meningkatkan penjualan buku.', 'https://i.ibb.co.com/27rhdmpc/Banner-Promosi-1.jpg', 'https://ibb.co.com/27rhdmpc')" class="py-2.5 rounded-xl bg-slate-800 text-white text-xs font-semibold flex items-center justify-center gap-1 hover:bg-slate-900 transition-colors">
+                                Banner 1
+                            </button>
+                            <button onclick="openModal('Promosi Buku & Banner Digital 2', 'Banner digital promosi penerbitan buku.', 'https://i.ibb.co.com/4wHJRsMH/Banner-Promosi-2.jpg', 'https://ibb.co.com/4wHJRsMH')" class="py-2.5 rounded-xl bg-slate-800 text-white text-xs font-semibold flex items-center justify-center gap-1 hover:bg-slate-900 transition-colors">
+                                Banner 2
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="py-20 bg-white border-t border-slate-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-secondary font-bold uppercase tracking-wider text-xs bg-amber-50 px-3 py-1 rounded-full border border-amber-200">Lisensi & Sertifikasi</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">Sertifikasi Profesional Resmi</h2>
+                    <p class="text-slate-600 mt-2 text-base">Klik sertifikat di bawah ini untuk melihat dokumen asli secara utuh.</p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div onclick="openModal('MikroTik - MTCNA', 'Sertifikasi MikroTik Certified Network Associate resmi.', 'https://i.ibb.co.com/QjXKf6gr/Sertifikat-MTCNA.jpg', 'https://ibb.co.com/QjXKf6gr')" class="p-6 rounded-3xl bg-slate-50 border border-slate-200 flex items-start gap-4 hover:border-primary transition-colors cursor-pointer group">
+                        <div class="w-10 h-10 rounded-xl bg-primary text-secondary flex items-center justify-center font-bold flex-shrink-0 group-hover:scale-110 transition-transform"><i class="fa-solid fa-certificate"></i></div>
+                        <div>
+                            <span class="text-xs font-semibold text-secondary">Oct 2024 – Oct 2027</span>
+                            <h4 class="text-base font-bold text-slate-900 mt-1">MikroTik - MTCNA</h4>
+                            <p class="text-xs text-primary font-medium mt-1"><i class="fa-solid fa-arrow-up-right-from-square"></i> Buka Tampilan Jelas</p>
+                        </div>
+                    </div>
+
+                    <div onclick="openModal('Oracle Cloud Infrastructure', 'Sertifikasi Oracle Cloud Infrastructure Foundations I.', 'https://i.ibb.co.com/6cbr2zJg/Sertifikat-Oracle.jpg', 'https://ibb.co.com/6cbr2zJg')" class="p-6 rounded-3xl bg-slate-50 border border-slate-200 flex items-start gap-4 hover:border-primary transition-colors cursor-pointer group">
+                        <div class="w-10 h-10 rounded-xl bg-primary text-secondary flex items-center justify-center font-bold flex-shrink-0 group-hover:scale-110 transition-transform"><i class="fa-solid fa-certificate"></i></div>
+                        <div>
+                            <span class="text-xs font-semibold text-secondary">12 Jun 2023</span>
+                            <h4 class="text-base font-bold text-slate-900 mt-1">Oracle Cloud Infrastructure</h4>
+                            <p class="text-xs text-primary font-medium mt-1"><i class="fa-solid fa-arrow-up-right-from-square"></i> Buka Tampilan Jelas</p>
+                        </div>
+                    </div>
+
+                    <div onclick="openModal('Oracle Database Design', 'Sertifikasi Oracle Academy Database Design.', 'https://i.ibb.co.com/kVXG0x4k/Sertifikat-Oracle-DB.jpg', 'https://ibb.co.com/kVXG0x4k')" class="p-6 rounded-3xl bg-slate-50 border border-slate-200 flex items-start gap-4 hover:border-primary transition-colors cursor-pointer group">
+                        <div class="w-10 h-10 rounded-xl bg-primary text-secondary flex items-center justify-center font-bold flex-shrink-0 group-hover:scale-110 transition-transform"><i class="fa-solid fa-certificate"></i></div>
+                        <div>
+                            <span class="text-xs font-semibold text-secondary">09 Jan 2023</span>
+                            <h4 class="text-base font-bold text-slate-900 mt-1">Oracle Database Design</h4>
+                            <p class="text-xs text-primary font-medium mt-1"><i class="fa-solid fa-arrow-up-right-from-square"></i> Buka Tampilan Jelas</p>
+                        </div>
+                    </div>
+
+                    <div onclick="openModal('LSP-IT Networking Support', 'Sertifikasi Kompetensi BNSP Networking Support.', 'https://i.ibb.co.com/Gfb4Vg14/Sertifikat-BNSP.jpg', 'https://ibb.co.com/Gfb4Vg14')" class="p-6 rounded-3xl bg-slate-50 border border-slate-200 flex items-start gap-4 hover:border-primary transition-colors cursor-pointer group">
+                        <div class="w-10 h-10 rounded-xl bg-primary text-secondary flex items-center justify-center font-bold flex-shrink-0 group-hover:scale-110 transition-transform"><i class="fa-solid fa-certificate"></i></div>
+                        <div>
+                            <span class="text-xs font-semibold text-secondary">05 Okt 2020</span>
+                            <h4 class="text-base font-bold text-slate-900 mt-1">LSP-IT Networking Support</h4>
+                            <p class="text-xs text-primary font-medium mt-1"><i class="fa-solid fa-arrow-up-right-from-square"></i> Buka Tampilan Jelas</p>
+                        </div>
+                    </div>
+
+                    <div onclick="openModal('Junior Network Administrator', 'Sertifikasi Junior Network Administrator Kominfo.', 'https://i.ibb.co.com/VYsdMDXW/Sertifikat-Kominfo.jpg', 'https://ibb.co.com/VYsdMDXW')" class="p-6 rounded-3xl bg-slate-50 border border-slate-200 flex items-start gap-4 hover:border-primary transition-colors cursor-pointer group">
+                        <div class="w-10 h-10 rounded-xl bg-primary text-secondary flex items-center justify-center font-bold flex-shrink-0 group-hover:scale-110 transition-transform"><i class="fa-solid fa-certificate"></i></div>
+                        <div>
+                            <span class="text-xs font-semibold text-secondary">04 Nov 2020</span>
+                            <h4 class="text-base font-bold text-slate-900 mt-1">Junior Network Administrator</h4>
+                            <p class="text-xs text-primary font-medium mt-1"><i class="fa-solid fa-arrow-up-right-from-square"></i> Buka Tampilan Jelas</p>
+                        </div>
+                    </div>
+
+                    <div onclick="openModal('Sertifikasi TKJ', 'Kompetensi Keahlian Teknik Komputer Jaringan.', 'https://i.ibb.co.com/CKLFgWBf/Sertifikat-TKJ.jpg', 'https://ibb.co.com/CKLFgWBf')" class="p-6 rounded-3xl bg-slate-50 border border-slate-200 flex items-start gap-4 hover:border-primary transition-colors cursor-pointer group">
+                        <div class="w-10 h-10 rounded-xl bg-primary text-secondary flex items-center justify-center font-bold flex-shrink-0 group-hover:scale-110 transition-transform"><i class="fa-solid fa-certificate"></i></div>
+                        <div>
+                            <span class="text-xs font-semibold text-secondary">24-25 Agt 2020</span>
+                            <h4 class="text-base font-bold text-slate-900 mt-1">Sertifikasi TKJ</h4>
+                            <p class="text-xs text-primary font-medium mt-1"><i class="fa-solid fa-arrow-up-right-from-square"></i> Buka Tampilan Jelas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-slate-900 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-secondary font-bold uppercase tracking-wider text-xs bg-amber-500/10 px-3 py-1 rounded-full border border-amber-500/20">Kontak Saya</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3">Mari Terhubung & Berkolaborasi</h2>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 max-w-5xl mx-auto">
+                    <div class="lg:col-span-5 space-y-8">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-2xl bg-primary text-secondary flex items-center justify-center text-xl font-bold flex-shrink-0"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-slate-400 uppercase tracking-wider">Email Utama</h4>
+                                <a href="mailto:nadiautami463@gmail.com" class="text-lg font-bold text-white hover:text-secondary transition-colors mt-1 block">nadiautami463@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-2xl bg-primary text-secondary flex items-center justify-center text-xl font-bold flex-shrink-0"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div>
+                                <h4 class="text-sm font-semibold text-slate-400 uppercase tracking-wider">Telepon / WhatsApp</h4>
+                                <a href="tel:+62895339250874" class="text-lg font-bold text-white hover:text-secondary transition-colors mt-1 block">+62 895-3392-50874</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-7 bg-slate-800/80 p-8 rounded-3xl border border-slate-700">
+                        <form onsubmit="handleFormSubmit(event)" class="space-y-6">
+                            <div>
+                                <label class="block text-sm font-semibold text-slate-300 mb-2">Nama Lengkap</label>
+                                <input type="text" required placeholder="Masukkan nama Anda" class="w-full px-4 py-3.5 rounded-2xl bg-slate-900 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-secondary transition-colors">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-slate-300 mb-2">Pesan</label>
+                                <textarea rows="4" required placeholder="Tuliskan pesan Anda..." class="w-full px-4 py-3.5 rounded-2xl bg-slate-900 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-secondary transition-colors"></textarea>
+                            </div>
+                            <button type="submit" class="w-full py-4 rounded-2xl bg-secondary text-white font-bold hover:bg-amber-600 transition-colors shadow-lg">
+                                Kirim Pesan
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal Pratinjau Resolusi Tinggi -->
+    <div id="project-modal" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-md hidden items-center justify-center p-4">
+        <div class="bg-white rounded-3xl max-w-4xl w-full max-h-[92vh] overflow-y-auto shadow-2xl p-6 sm:p-8 relative flex flex-col">
+            <button onclick="closeModal()" aria-label="Tutup modal" class="absolute top-5 right-5 w-11 h-11 rounded-full bg-slate-100 text-slate-700 hover:bg-slate-200 flex items-center justify-center font-bold text-xl transition-colors z-10">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            
+            <h3 id="modal-title" class="text-2xl font-bold text-slate-900 mb-2 pr-12">Judul Dokumen</h3>
+            <p id="modal-desc" class="text-slate-600 text-sm mb-4">Deskripsi...</p>
+            
+            <div class="rounded-2xl overflow-hidden bg-slate-950 mb-6 border border-slate-200 flex items-center justify-center p-2 min-h-[300px]">
+                <img id="modal-img" src="" alt="Pratinjau HD" class="max-w-full max-h-[60vh] object-contain rounded-lg hd-img-container">
+            </div>
+
+            <div class="flex flex-col sm:flex-row gap-3 mt-auto">
+                <a id="modal-direct-link" href="#" target="_blank" rel="noopener noreferrer" class="flex-1 py-3.5 rounded-xl bg-secondary text-white font-bold text-sm text-center hover:bg-amber-600 transition-colors flex items-center justify-center gap-2 shadow-sm">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Buka Halaman Asli ImgBB (Gambar Asli 100% HD)
+                </a>
+                <button onclick="closeModal()" class="px-6 py-3.5 rounded-xl bg-slate-200 text-slate-800 font-semibold text-sm hover:bg-slate-300 transition-colors">
+                    Tutup
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Functions -->
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        function openModal(title, desc, directImgSrc, pageUrl) {
+            document.getElementById('modal-title').innerText = title;
+            document.getElementById('modal-desc').innerText = desc;
+            document.getElementById('modal-img').src = directImgSrc;
+            
+            const directLinkBtn = document.getElementById('modal-direct-link');
+            if(pageUrl) {
+                directLinkBtn.href = pageUrl;
+                directLinkBtn.classList.remove('hidden');
+            } else {
+                directLinkBtn.classList.add('hidden');
+            }
+
+            const modal = document.getElementById('project-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('project-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = 'auto';
+        }
+
+        window.addEventListener('click', (e) => {
+            const modal = document.getElementById('project-modal');
+            if (e.target === modal) {
+                closeModal();
+            }
+        });
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            alert('Terima kasih! Pesan Anda telah terkirim.');
+            e.target.reset();
+        }
+    </script>
+</body>
+</html>
